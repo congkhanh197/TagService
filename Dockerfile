@@ -16,3 +16,5 @@ WORKDIR /source
 
 # Change permission
 RUN chmod 777 ./scripts/run_service.sh
+
+RUN ./scripts/run_service.sh
